@@ -95,9 +95,7 @@ try:
             my_board.pwm_write(10, g_value)
             my_board.pwm_write(11, b_value)
 
-
-
 except:
     off_color()
-
+# this is the basic code to LED on off for different colors
 
